@@ -59,11 +59,6 @@
         <resource-file src="resources/android/icon/mipmap-xxxhdpi/launcher_round.png" target="res/mipmap-xxxhdpi-v4/launcher_round.png" />
         <resource-file src="resources/android/icon/mipmap-xxxhdpi/launcher_foreground.png" target="res/mipmap-xxxhdpi-v4/launcher_foreground.png" />
         <resource-file src="resources/android/styles.xml" target="res/values/styles.xml" />
-        <resource-file src="resources/android/icon/mdpi_small_icon.png" target="res/drawable-mdpi-v4/small_icon.png" />
-        <resource-file src="resources/android/icon/hdpi_small_icon.png" target="res/drawable-hdpi-v4/small_icon.png" />
-        <resource-file src="resources/android/icon/xhdpi_small_icon.png" target="res/drawable-xhdpi-v4/small_icon.png" />
-        <resource-file src="resources/android/icon/xxhdpi_small_icon.png" target="res/drawable-xxhdpi-v4/small_icon.png" />
-        <resource-file src="resources/android/icon/xxxhdpi_small_icon.png" target="res/drawable-xxxhdpi-v4/small_icon.png" />
     </platform>
     <splash density="port-ldpi" platform="android" src="resources/android/splash/splash-port-ldpi.png" />
     <splash density="port-mdpi" platform="android" src="resources/android/splash/splash-port-mdpi.png" />
