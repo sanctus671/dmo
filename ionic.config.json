@@ -1,5 +1,7 @@
 {
   "name": "dmo",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

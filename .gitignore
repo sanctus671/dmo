@@ -13,16 +13,16 @@ log.txt
 npm-debug.log*
 
 .idea/
-.ionic/
 .sourcemaps/
 .sass-cache/
 .tmp/
 .versions/
 coverage/
-www/
+dist/
 node_modules/
 tmp/
 temp/
+hooks/
 platforms/
 plugins/
 plugins/android.json
@@ -32,3 +32,12 @@ $RECYCLE.BIN/
 .DS_Store
 Thumbs.db
 UserInterfaceState.xcuserstate
+/src
+/tsconfig.json
+/tslint.json
+/nbproject
+/.editorconfig
+/ionic.config.json
+/package.json
+/package-lock.json
+/e2e
