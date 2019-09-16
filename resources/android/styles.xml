@@ -1,6 +1,6 @@
 <resources>
-    <color name="primaryColor">#D44735</color>
-    <color name="primaryColorDark">#9C2111</color>
+    <color name="primaryColor">#000000</color>
+    <color name="primaryColorDark">#000000</color>
     <color name="whiteColor">#FFFFFF</color>
     <color name="grayColor">#EEEEEE</color>
     <color name="transaprentColor">#00000000</color>
