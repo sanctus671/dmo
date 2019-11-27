@@ -73,6 +73,9 @@ MIT
 @ionic-native/core
 MIT
 
+@ionic-native/crop
+MIT
+
 @ionic-native/email-composer
 MIT
 
