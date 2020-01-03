@@ -146,4 +146,5 @@
     <plugin name="phonegap-plugin-barcodescanner" spec="^8.1.0" />
     <plugin name="cordova-plugin-inapppurchase" spec="^1.2.0" />
     <plugin name="cordova-plugin-crop" spec="^0.4.0" />
+    <gap:plugin spec="https://github.com/sanctus671/cordova-plugin-stripe.git#v2" />
 </widget>
