@@ -22,7 +22,7 @@
     <preference name="ScrollEnabled" value="false" />
     <preference name="BackupWebStorage" value="none" />
     <preference name="android-minSdkVersion" value="15" />
-    <preference name="android-targetSdkVersion" value="28" />
+    <preference name="android-targetSdkVersion" value="27" />
     <preference name="SplashMaintainAspectRatio" value="true" />
     <preference name="FadeSplashScreenDuration" value="300" />
     <preference name="AutoHideSplashScreen" value="false" />
@@ -146,4 +146,5 @@
     <plugin name="phonegap-plugin-barcodescanner" spec="^8.1.0" />
     <plugin name="cordova-plugin-inapppurchase" spec="^1.2.0" />
     <plugin name="cordova-plugin-crop" spec="^0.4.0" />
+    <plugin name="cordova-plugin-stripe" spec="^1.5.3" />
 </widget>
