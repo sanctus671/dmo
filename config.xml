@@ -138,12 +138,12 @@
     </gap:plugin>
     <plugin name="cordova-plugin-file-transfer" spec="^1.7.1" />
     <plugin name="cordova-plugin-file" spec="^6.0.2" />
-    <plugin name="cordova-plugin-nativegeocoder" spec="^3.2.2">
         <variable name="LOCATION_WHEN_IN_USE_DESCRIPTION" value="We use your location to show you relevant events in your area." />
     </plugin>
     <gap:plugin spec="https://github.com/hypery2k/cordova-email-plugin#master" />
     <plugin name="cordova-plugin-inappbrowser" spec="^3.1.0" />
     <plugin name="phonegap-plugin-barcodescanner" spec="^8.1.0" />
     <plugin name="cordova-plugin-inapppurchase" spec="^1.2.0" />
+    <plugin name="cordova-plugin-crop" spec="^0.4.0" />
     <plugin name="cordova-plugin-stripe" spec="^1.5.3" />
 </widget>
