@@ -1,12 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget android-versionCode="2" id="com.dmonz.app" version="0.0.5" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
-    <edit-config file="AndroidManifest.xml" mode="merge" target="/manifest/application/activity[@android:label='@string/activity_name']">
-        <activity android:theme="@style/dmoTheme" />
-    </edit-config>
-    <edit-config file="AndroidManifest.xml" mode="merge" target="/manifest/application">
-        <application android:icon="@mipmap/launcher" android:roundIcon="@mipmap/launcher_round" />
-    </edit-config>
-    <name>DMO</name>
+<widget android-versionCode="2" id="com.glorianz.app" version="0.0.5" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Gloria</name>
     <description>New Zealand events app.</description>
     <author email="taylor@taylorhamling.com" href="https://www.taylorhamling.com/">Taylor Hamling</author>
     <content src="index.html" />
@@ -39,7 +33,7 @@
         <resource-file src="resources/android/xml/network_security_config.xml" target="res/xml/network_security_config.xml" />
         <resource-file src="resources/android/icon/values/launcher_background.xml" target="res/values/launcher_background.xml" />
         <resource-file src="resources/android/icon/mipmap-anydpi-v26/launcher.xml" target="res/mipmap-anydpi-v26/launcher.xml" />
-        <resource-file src="resources/android/icon/mipmap-anydpi-v26/launcher_round.xml" target="res/mipmap-anydpi-v26/launcher_round.xml" />
+        <resource-file src="resources/android/icon/mipmap-anydpi-v26/launcher_round.xml" target="app/src/main/res/mipmap-anydpi-v26/launcher_round.xml" />
         <resource-file src="resources/android/icon/mipmap-ldpi/launcher.png" target="res/mipmap-ldpi-v4/launcher.png" />
         <resource-file src="resources/android/icon/mipmap-hdpi/launcher.png" target="res/mipmap-hdpi-v4/launcher.png" />
         <resource-file src="resources/android/icon/mipmap-hdpi/launcher_round.png" target="res/mipmap-hdpi-v4/launcher_round.png" />
@@ -57,6 +51,12 @@
         <resource-file src="resources/android/icon/mipmap-xxxhdpi/launcher_round.png" target="res/mipmap-xxxhdpi-v4/launcher_round.png" />
         <resource-file src="resources/android/icon/mipmap-xxxhdpi/launcher_foreground.png" target="res/mipmap-xxxhdpi-v4/launcher_foreground.png" />
         <resource-file src="resources/android/styles.xml" target="res/values/styles.xml" />
+        <edit-config file="AndroidManifest.xml" mode="merge" target="/manifest/application/activity[@android:label='@string/activity_name']">
+            <activity android:theme="@style/dmoTheme" />
+        </edit-config>
+        <edit-config file="AndroidManifest.xml" mode="merge" target="/manifest/application">
+            <application android:icon="@mipmap/launcher" android:roundIcon="@mipmap/launcher_round" />
+        </edit-config>
     </platform>
     <splash density="port-ldpi" platform="android" src="resources/android/splash/splash-port-ldpi.png" />
     <splash density="port-mdpi" platform="android" src="resources/android/splash/splash-port-mdpi.png" />
@@ -124,27 +124,26 @@
     <splash platform="ios" src="resources/ios/splash/Default@2x~ipad~comany.png" />
     <icon src="resources/icon.png" />
     <splash src="resources/splash.png" />
-    <engine name="android" spec="~6.3.0" />
     <plugin name="cordova-plugin-whitelist" spec="1.3.3" />
     <plugin name="cordova-plugin-statusbar" spec="2.4.2" />
     <plugin name="cordova-plugin-device" spec="2.0.2" />
-    <gap:plugin spec="https://github.com/pdyraga/cordova-plugin-splashscreen" />
+    <plugin name="cordova-plugin-splashscreen" spec="^6.0.0" />
     <plugin name="cordova-plugin-ionic-webview" spec="^2.4.1" />
     <plugin name="cordova-plugin-ionic-keyboard" spec="^2.0.5" />
     <plugin name="onesignal-cordova-plugin" spec="2.7.0" />
-    <gap:plugin name="cordova-plugin-camera" source="npm" version="^4.1.0">
+    <plugin name="cordova-plugin-camera" spec="^4.1.0">
         <param name="CAMERA_USAGE_DESCRIPTION" value="We are using the Camera to take pictures for an avatar" />
         <param name="PHOTOLIBRARY_USAGE_DESCRIPTION" value="We are using the Photo Library to get pictures for an avatar" />
-    </gap:plugin>
+    </plugin>
     <plugin name="cordova-plugin-file-transfer" spec="^1.7.1" />
     <plugin name="cordova-plugin-file" spec="^6.0.2" />
     <plugin name="cordova-plugin-nativegeocoder" spec="3.2.2">
         <variable name="LOCATION_WHEN_IN_USE_DESCRIPTION" value="We use your location to show you relevant events in your area." />
     </plugin>
-    <gap:plugin spec="https://github.com/hypery2k/cordova-email-plugin#master" />
-    <plugin name="cordova-plugin-inappbrowser" spec="^3.1.0" />
     <plugin name="phonegap-plugin-barcodescanner" spec="^8.1.0" />
     <plugin name="cordova-plugin-inapppurchase" spec="^1.2.0" />
     <plugin name="cordova-plugin-crop" spec="^0.4.0" />
     <plugin name="cordova-plugin-stripe" spec="^1.5.3" />
+    <engine name="android" spec="^6.3.0" />
+    <plugin name="cordova-plugin-inappbrowser" spec="^4.1.0" />
 </widget>

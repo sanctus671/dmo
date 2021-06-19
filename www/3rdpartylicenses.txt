@@ -76,9 +76,6 @@ MIT
 @ionic-native/crop
 MIT
 
-@ionic-native/email-composer
-MIT
-
 @ionic-native/file-transfer
 MIT
 
