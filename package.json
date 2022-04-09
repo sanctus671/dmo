@@ -55,7 +55,7 @@
     "core-js": "^2.5.4",
     "ionic2-google-places-autocomplete": "^1.0.2",
     "leaflet": "^1.5.1",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "ngx-autosize": "^1.6.4",
     "ngx-qrcode2": "0.0.9",
     "onesignal-cordova-plugin": "^2.11.4",
